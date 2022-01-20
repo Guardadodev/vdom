@@ -1,0 +1,19 @@
+{
+  "name": "jsx-renderer",
+  "version": "1.0.0",
+  "description": "Simple JSX renderer",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -o build/main.bundle.js",
+    "start": "http-server"
+  },
+  "author": "Jesus Octavio Guardado Osuna",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.10",
+    "@babel/plugin-transform-react-jsx": "^7.16.7",
+    "@babel/preset-env": "^7.16.10",
+    "http-server": "^14.1.0"
+  }
+}
